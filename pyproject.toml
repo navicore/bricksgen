@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bricksgen"
+authors = [
+    {name = "Ed Sweeney", email = "ed@onextent.com"},
+]
+description = "JSON generator for Bricks IOT data"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["json", "generator", "bricks", "rdf"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+[project.scripts]
+bricksgen = "bricksgen.__main__:main"
