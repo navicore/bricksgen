@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/bricksgen](https://git.navicore.tech/navicore/bricksgen).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 Generate Navactor Data from Bricks Data
 ==============
 
@@ -21,4 +26,3 @@ python -m pip install --upgrade pip
 python -m pip install -e .
 python -m pip install --upgrade tox
 ```
-
